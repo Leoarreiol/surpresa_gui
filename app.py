@@ -14,7 +14,7 @@ st.markdown(
 )
 
 # Mostrar foto
-image = Image.open("/Users/leonorarreiol/Documents/foto_nossa.jpg")
+image = Image.open("foto_nossa.jpg")
 st.image(image, caption="nós ❤️", use_container_width=True)
 
 # Animação: corações
